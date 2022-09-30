@@ -112,14 +112,83 @@
 // let markHeight = 1.69
 // let johnWeight = 92
 // let johnHeight = 1.95
-let markWeight = 95;
-let markHeight = 1.88;
-let johnWeight = 85;
-let johnHeight = 1.76;
-let BMIMark = markWeight / markHeight ** 2;
-let BMIJohn = johnWeight / (johnHeight * johnHeight)
-let markHigherBMI = BMIMark > BMIJohn;
-console.log(BMIMark, BMIJohn, markHigherBMI)
+// let markWeight = 95;
+// let markHeight = 1.88;
+// let johnWeight = 85;
+// let johnHeight = 1.76;
+// let BMIMark = markWeight / markHeight ** 2;
+// let BMIJohn = johnWeight / (johnHeight * johnHeight)
+// let markHigherBMI = BMIMark > BMIJohn;
+// console.log(BMIMark, BMIJohn, markHigherBMI)
+
+
+// STRINGS AND TEMPLATE LITERALS
+// const firstName ='gary';
+// const job = 'coder';
+// constBirthYear = 1991;
+// const year = 2037
+// // const gary = "I'm " + firstName + ", a " + (year - birthYear) + "years old" + job + "!"
+// // console.log(gary)
+
+// const garyNew = `I'm ${firstName}, a ${year - birthYear} year old ${coder}!`
+// console.log(garyNew)
+
+// console.log(`just a regular string`)
+
+// console.log(`string
+// multiple
+// lines`)
+
+
+
+//TAKING DECISIONS - IF/ELSE STATEMENTS
+
+// const age = 19
+// const isOldEnough = age >= 18;
+
+// if (isOldEnough) {
+//   console.log("sarah can start driving");
+// } else { 
+// const yearsLeft = 18 - age;
+// console.log(`sarah has to wait another ${yearsLeft} years`);
+// } 
+// const birthYear = 1991;
+
+
+// if (birthYear <= 2000) {
+// let century = 20
+// } else {
+// let century = 21;
+// } console.log(century)
+
+//CODING CHALLENGE #2
+
+// let marksBMI = 22.3
+// let johnsBMI = 23.9
+// if (marksBMI <= johnsBMI){
+// console.log (`john has the higher BMI`)
+// } else {console.log(`mark has the higher BMI`)
+// }
+
+
+//TYPE CONVERSION
+// const inputYear = "1991";
+// console.log(Number(inputYear));
+// console.log(Number (inputYear) + 18);
+
+// console.log(Number("gary"))
+// console.log(typeof NaN)
+// console.log(String(23))
+
+
+//TYPE COERCION
+// console.log(`I am ` + 23 + ` years old`)
+// console.log(`23` / `2`)
+
+
+
+
+
 
 
 
