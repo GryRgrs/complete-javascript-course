@@ -185,6 +185,54 @@
 // console.log(`I am ` + 23 + ` years old`)
 // console.log(`23` / `2`)
 
+//TRUTHY AND FALSY VALUES
+
+//5 falsy value
+//0, ""(not a string), undefined, null, NaN.
+
+// console.log(Boolean(0))
+// console.log(Boolean(undefined));
+// console.log(Boolean("gary"));
+// console.log(Boolean({}));
+
+// const money = 50;
+// if (money) {
+// console.log("don't spend it all")    
+// } else {
+//  console.log("you should get a job")   
+// }
+
+// let height = 3;
+// if (height) {
+// console.log("yay! height is defined")    
+// } else {
+// console.log("height is undefined")
+// }
+
+//EQUALITY OPERATORS
+// const age = 18;
+// if (age === 18) console.log("you just became an adult")
+// console.log(18 === 19)
+
+//LOGICAL OPERATORS
+
+// const hasDriversLicence = true
+// const hasGoodVision = true
+// console.log(hasDriversLicence || hasGoodVision)
+// console.log(!hasDriversLicence)
+
+// const shouldDrive = hasDriversLicence && hasGoodVision;
+
+// if (shouldDrive) {
+//   console.log("Sarah should Drive");
+// } else {
+//   console.log("Sarah should walk");
+// } 
+
+// const isTired = true;
+// console.log(hasDriversLicence && hasGoodVision && !isTired)
+
+//CODING CHALLENGE 3
 
 
 
