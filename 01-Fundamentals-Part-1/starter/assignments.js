@@ -234,8 +234,53 @@
 
 //CODING CHALLENGE 3
 
+// const scoreDolphins = (96 + 108 + 89) / 3
+// const scoreKoalas = (98 + 91 + 110) / 3
+// console.log(scoreDolphins)
+// console.log(scoreKoalas)
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100){
+// console.log("Dolphins win the trophy")
+// } else console.log("Koalas win the trophy"); 
 
 
+//THE SWITCH STATEMENT
+
+// const day = "wednesday"
+// switch(day) {
+// case "monday":
+// console.log("plan course structure");   
+// console.log("go to coding meet-up")
+// break;
+// case "tuesday":
+// console.log("prepare theory video")
+// break;
+// case "wednesday":
+// console.log("whatever")
+// } 
+
+
+//CONDITIONAL OPERATOR
+// const age = 23
+// // age >= 18 ? console.log("I like to drink wine") : 
+// // console.log("I like to drink water")
+
+// const drink = age >=18 ? "wine" : "water";
+// console.log(drink)
+
+// let drink2 
+// if (age >=18) {
+// drink2 = "wine"
+// } else {
+// drink2 = "water"
+// } console.log(drink2)
+ 
+
+//coding challenge 
+
+// let bill = 275
+// let tip = bill <=300 && bill >=50 ? bill * 0.15 :
+// bill * 0.2;
+// console.log(`the bill was ${bill}, the tip was ${tip}, and the total value was ${bill + tip}`)
 
 
 
